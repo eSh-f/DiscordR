@@ -1,0 +1,22 @@
+.header{
+  display: flex;
+  min-width: 100%;
+  justify-content: space-between;
+  padding: 40px;
+  position: fixed;
+
+}
+
+.logo{
+  font-size: 24px;
+  color: white;
+
+}
+
+.loginButton{
+  font-size: 16px;
+  padding: 10px 15px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
