@@ -1,25 +1,25 @@
 import React from "react";
 import styles from "../styles/section.module.scss";
+import gif from "../assets/putinvszel.gif";
 
-const LandingSection = () => {
+export const LandingSection = () => {
   return (
     <div className={styles.section}>
       <div className={styles.wrapper}>
         <div className={styles.content}>
           <div className={styles.contentText}>
-            <h2>Трансляция</h2>
+            <h2>Завершение легендарного конфликта 01.08.2025</h2>
             <p>
-              Путиин и Зеленский решили уладить конфликт в чемпионате по Dota 2.
+              Путин и Зеленский решили уладить конфликт в чемпионате по Dota 2.{" "}
+              <br />
               Эксклюзивно только в Ruscord!
             </p>
           </div>
           <div className={styles.contentMedia}>
-            <img src="" alt="meadia" />
+            <img src={gif} alt="meadia" />
           </div>
         </div>
       </div>
     </div>
   );
 };
-
-export default LandingSection;
