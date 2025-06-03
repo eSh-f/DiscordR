@@ -1,8 +1,18 @@
-import React from "react";
+import React, { FC } from "react";
 import styles from "../styles/section.module.scss";
 import gif from "../assets/putinvszel.gif";
 
-export const LandingSection = () => {
+interface LandingSectionProps {
+  header: string;
+  text: string;
+  image: string;
+}
+
+export const LandingSection: FC<LandingSectionProps> = ({
+  header,
+  text,
+  image,
+}) => {
   return (
     <div className={styles.section}>
       <div className={styles.wrapper}>
