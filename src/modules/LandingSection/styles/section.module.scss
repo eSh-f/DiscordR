@@ -2,16 +2,19 @@
   width: 100%;
   margin: 20px 0 ;
   padding: 50px;
+}
 
+.defaultWrapper{
+  background: linear-gradient(90deg,rgba(87, 58, 133, 1) 0%, rgba(78, 101, 183, 1) 46%, rgba(88, 91, 191, 1) 100%);}
 
-
+.thematicWrapper{
+  background: linear-gradient(90deg,rgba(242, 242, 242, 1) 1%, rgba(23, 83, 173, 1) 15%, rgba(184, 78, 78, 1) 25%, rgba(66, 144, 184, 1) 70%, rgba(237, 221, 83, 1) 96%);
 }
 
 .wrapper{
   border-radius: 120px;
   box-shadow: 10px 1px 5px rgba(0,0,0,0.1);
   padding: 40px;
-  background: linear-gradient(90deg,rgba(242, 242, 242, 1) 1%, rgba(23, 83, 173, 1) 15%, rgba(184, 78, 78, 1) 25%, rgba(66, 144, 184, 1) 70%, rgba(237, 221, 83, 1) 96%);
 }
 
 .content{

@@ -1,1 +1,1 @@
-export { LandingSection } from "../LandingSection/components/LandingSection";
+export { LandingSection } from "@/modules/LandingSection/ui/LandingSection";

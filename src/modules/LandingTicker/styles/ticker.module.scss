@@ -1,0 +1,32 @@
+.ticker{
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background-color: white;
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg,rgba(87, 58, 133, 1) 0%, rgba(78, 101, 183, 1) 46%, rgba(88, 91, 191, 1) 100%);
+  position: relative;
+}
+
+.wrapper{
+  display: flex;
+  gap: 250px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+
+  animation: scroll 70s linear infinite;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
